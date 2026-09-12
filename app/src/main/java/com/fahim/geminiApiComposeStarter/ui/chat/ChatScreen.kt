@@ -110,7 +110,7 @@ private fun PromptBar(
 ) {
     Row(
         modifier = Modifier.fillMaxWidth().padding(top = 16.dp),
-        verticalAlignment = Alignment.Top,
+        verticalAlignment = Alignment.CenterVertically,
     ) {
         OutlinedTextField(
             value = prompt,
